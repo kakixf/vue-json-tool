@@ -1,6 +1,6 @@
 {
-  "name": "vue-json-editor",
-  "version": "1.4.3",
+  "name": "vue-json-tool",
+  "version": "1.0.0",
   "description": "A json editor of vue",
   "main": "vue-json-editor.vue",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dirkliu/vue-json-editor.git"
+    "url": "git+https://github.com/Blakeyi/vue-json-tool.git"
   },
   "keywords": [
     "vue-json-editor",
@@ -21,15 +21,9 @@
     "eidtor",
     "vue"
   ],
-  "author": "liuqi41",
+  "author": "blakeyi",
   "contributors": [
-    "Stefano Valenzano <valenzano.stefano99@gmail.com> (https://tuttarealstep.github.io/)",
-    "Duncan Lock (https://github.com/dflock)",
-    "Jean-Pierre (https://github.com/jpbecotte)",
-    "tianzhihen (https://github.com/tianzhihen)",
-    "alexmgillis (https://github.com/alexmgillis)",
-    "DrCoc (https://github.com/DrCoc)",
-    "Aymeric Hermant (https://github.com/ahermant/)"
+
   ],
   "license": "ISC",
   "bugs": {
