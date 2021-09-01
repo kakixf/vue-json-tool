@@ -80,20 +80,20 @@ export default {
       mode: this.mode,
       modes: this.modes, // allowed modes
       onChange() {
-        try {
-          let json = self.editor.get();
-          self.json = json;
-          self.error = false;
-          self.$emit("json-change", json);
-          self.internalChange = true;
-          self.$emit("input", json);
-          self.$nextTick(function() {
-            self.internalChange = false;
-          });
-        } catch (e) {
-          self.error = true;
-          self.$emit("has-error", e);
-        }
+        // try {
+        //   let json = self.editor.get();
+        //   self.json = json;
+        //   self.error = false;
+        //   self.$emit("json-change", json);
+        //   self.internalChange = true;
+        //   self.$emit("input", json);
+        //   self.$nextTick(function() {
+        //     self.internalChange = false;
+        //   });
+        // } catch (e) {
+        //   self.error = true;
+        //   self.$emit("has-error", e);
+        // }
       },
       onModeChange() {
         self.expandAll();
