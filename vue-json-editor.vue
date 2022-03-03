@@ -83,7 +83,6 @@ export default {
         try {
           let json = self.editor.get();
           self.json = json;
-          console.log(json)
           self.error = false;
           self.$emit("json-change", json);
           self.internalChange = true;
